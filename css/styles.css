@@ -185,18 +185,22 @@ span.akcent {
 
   background-color: var(--main-title-color);
   text-align: center;
-  outline: 1px solid hsl(0, 95%, 50%);
+  /*outline: 1px solid hsl(0, 95%, 50%);*/
 }
-.hero-title {
-  margin-bottom: 48px;
+.hero-box {
   margin-left: auto;
   margin-right: auto;
 
+  width: 496px;
+}
+.hero-title {
+  margin-bottom: 48px;
+
+  font-family: 'Roboto';
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: var(--typical-ls);
   color: var(--color-theme-dark);
-  max-width: 500px;
 }
 .hero-btn {
   padding-top: 16px;
@@ -300,6 +304,9 @@ span.akcent {
 
 /*------------------------------------------FOOTER--*/
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   background-color: var(--main-title-color);
 }
 .footer-text {
@@ -311,8 +318,6 @@ span.akcent {
   max-width: 264px;
 }
 .footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 /*=========================================/FOOTER==*/
